@@ -1,0 +1,184 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 121px; /* change it to desired width */
+    background-color:black; /* change to desired color */
+}
+.logo {
+    display: inline-block;
+    background-color: black;
+    vertical-align: top;
+    
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;    /* if you want it vertically middle of the navbar. */
+}
+
+h4 {
+    color: white;
+}
+
+.artists {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FF4B4B;
+    border: none;
+    color: white;
+    padding: 49px 40px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 0px 0px;
+    cursor: pointer;
+    float: right ;
+}
+
+.newmusic {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #34DAFF;
+    border: none;
+    color: white;
+    padding: 49px 40px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 0px 0px;
+    cursor: pointer;
+    float: right ;
+}
+
+.venues {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:#6CEF9A;
+    border: none;
+    color: white;
+    padding: 49px 40px;
+    text-align: center;
+    text-decoration: underline;
+    font-size:20px;
+    margin: 0px 0px;
+    cursor: pointer;
+    float: right ;
+}
+
+.events {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:#C4C4C4;
+    border: none;
+    color: white;
+    padding: 49px 40px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 0px 0px;
+    cursor: pointer;
+    float: right ;
+}
+
+.navigation-bar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;    /* if you want it vertically middle of the navbar */
+}
+
+
+h1{
+    margin-left:150px;
+    margin-right:150px;
+    margin-bottom: 0px;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+}
+
+h2{
+    
+    margin-left:150px;
+    margin-right:150px;
+    padding: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgrey;
+}
+
+h3{
+    
+    margin-left:0px;
+    margin-right:0px;
+    padding: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkgrey;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flex-item + .flex-item {
+    margin-left: 10px;
+  }
+  
+  .button {
+    margin-top: 15px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.button {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    }
+
+    .footeright {
+        font-family: 'Courier New', Courier, monospace;
+        position: right;
+        color: white;
+    }
+
+.footerleft {
+    font-family: 'Courier New', Courier, monospace;    
+    position: left;
+    color: white;
+}
+
+
+
+
+
